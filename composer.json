@@ -1,0 +1,35 @@
+{
+    "name": "mncs/statamic-validate-uploads",
+    "description": "Validate Statamic Uploads with Laravel validation rules",
+    "license": "proprietary",
+    "homepage": "https://mncs.io",
+    "autoload": {
+        "psr-4": {
+            "Mncs\\StatamicValidateUploads\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Naab",
+            "email": "michael.naab@mncs.io"
+        }
+    ],
+    "support": {
+        "email": "support@mncs.io"
+    },
+    "require": {
+        "php": "^7.4 || ^8.0 || ^8.1",
+        "statamic/cms": "^3.2"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Validate Uploads",
+            "description": "Validate Statamic Uploads with Laravel validation rules"
+        },
+        "laravel": {
+            "providers": [
+                "Mncs\\StatamicValidateUploads\\ServiceProvider"
+            ]
+        }
+    }
+}
